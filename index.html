@@ -1,0 +1,192 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>>, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body bgcolor="pink" >
+    <header>
+        <h1 style="color:rgb(255, 22, 255)" >My Portfolio Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+
+            <section id="Home">
+                <h2 style="color:aqua">Home</h2>
+                <p>Welcome to my portfolio website.</p>
+            </section>
+        
+            <section id="About">
+                <h2 style="color:blueviolet">About</h2>     
+        <form>
+            <label for="name">Name</label>
+            <input style="background-color:rgb(247, 224, 255)" type="text" id="name" name="name" required><br/><br/>
+            <label for="gender">Gender:</label>
+            <input style="background-color:rgb(247, 224, 255)"  type="radio" id="gender" name="gender" required>Female
+            <input style="background-color:rgb(247, 224, 255)"  type="radio" id="gender" name="gender" required>Male<br/><br/>
+            <label for="age">Age:</label>
+            <input style="background-color:rgb(247, 224, 255)"  type="number" id="age" name="age" required><br/><br/>
+            <label for="country">Nationality:</label>
+            <select style="background-color:rgb(247, 224, 255)" >
+               <option id="Af" value="Armenia">Armenia</option>
+               <option id="Be" value="Belgium">Belgium</option>
+               <option id="Ca" value=" Canada">Canada</option>
+               <option id="De" value="Denmark">Denmark</option>
+               <option id="Et" value="Ethiopia">Ethiopia</option>
+               <option id="Fi" value="Finland">Finland</option>
+               <option id="Gh" value="Ghana">Ghana</option>
+               <option id="Ho" value="Holysee">Holysee</option>
+               <option id="Ic" value="Iceland">Iceland</option>
+               <option id="Ja" value="Japan">Japan</option>
+               <option id="Ku" value="Kuwait">Kuwait</option>
+               <option id="Lu" value="Luxemburg">Luxemburg</option>
+               <option id="Mo" value="Morocco">Morocco</option>
+               <option id="Ni" value="Nigeria">Nigeria</option>
+               <option id="Or" value="Orange state">Orange state</option>
+               <option id="Po" value="Portugal">Portugal</option>
+               <option id="Qu" value="Quatar">Quatar</option>
+               <option id="Rw" value="Rwanda">Rwanda</option>
+               <option id="Sl" value="Slovakia">Slovakia</option>
+               <option id="Th" value="Thailand">Thailand</option>
+               <option id="Uz" value="Uzbekistan"> Uzbekistan</option>
+               <option id="Vi" value="Vietnam">Vietnam</option>
+               <option id="Ye" value="Yemen">Yemen</option>
+               <option id="Za" value="Zambia">Zambia</option>
+            </select><br/><br/>
+            <label for="shortbio">Short-Biography</label><br/> 
+            <textarea style="background-color:rgb(247, 224, 255)" id="shortbio" name="shortbio" rows="10" cols="50"></textarea><br/><br/>
+            <input style="background-color:rgb(247, 224, 255)"  type="submit" value="SUBMIT">
+           </form>
+            </section>
+
+            <section id="Work">
+                <h2 style="color:lightcoral">Work</h2>
+                <form>
+                    <label for="project-name"> Project Name:</label> 
+                    <input style="background-color:rgb(247, 224, 255)"  type="text" id="project-name" name="project-name"/><br/><br/>
+                    <label for="project-description"> Project Description:</label><br/> 
+                    <textarea style="background-color:rgb(247, 224, 255)"   id="project-name" name="project-name" rows="4" cols="50"></textarea><br/><br/>
+                    <label for="project-category"> Project Category:</label> 
+                    <input style="background-color:rgb(247, 224, 255)"  type="text" id="project-category" name="project-category"/>
+                 </form>
+            </section>
+
+            <section id="Resume">
+                <h2 style="color:fuchsia">Resume</h2>
+                <form>
+                    <section>
+                        <h3>Personal Information</h3>
+                        <label for="name">Name:</label>
+                        <input style="background-color:rgb(247, 224, 255)"  type="text" id="name" name="name" required/><br/><br/>
+                        <label for="email">Email:</label>
+                        <input style="background-color:rgb(247, 224, 255)"  type="email" id="email" name="email" required/><br/><br/>
+                        <label for="phone">Phone:</label>
+                        <input style="background-color:rgb(247, 224, 255)"  type="tel" id="phone" name="phone" required/><br/><br/>
+                        <label for="address">Address:</label><br/>
+                        <textarea style="background-color:rgb(247, 224, 255)"  id="address" name="address" rows="4" cols="50" required></textarea>
+                    </section>
+        
+                    <section>
+                        <h3>Education</h3>
+                        <label for="hschool">High-School:</label>
+                        <input style="background-color:rgb(247, 224, 255)"  type="text" id="hschool" name="school" required><br/><br/>
+                        <label for="university">University:</label>
+                        <input style="background-color:rgb(247, 224, 255)"  type="text" id="university" name="school" required><br/><br/>
+                        <label for="degree">Degree:</label>
+                        <input style="background-color:rgb(247, 224, 255)"  type="text" id="degree" name="degree" required><br/><br/>
+                        <label for="graduation">Year of Graduation:</label>
+                        <input style="background-color:rgb(247, 224, 255)"  type="date" id="graduation" name="graduation" required>
+                    </section>
+                        
+                    <section>
+                        <h3>Work Experience</h3>
+                        <label for="company">Company:</label>
+                        <input style="background-color:rgb(247, 224, 255)"  type="text" id="company" name="company" required><br/><br/>
+                        <label for="role">Role:</label>
+                        <input style="background-color:rgb(247, 224, 255)"  type="text" id="role" name="role" required><br/><br/>
+                        <label for="work-years">Years of Experience:</label>
+                        <input style="background-color:rgb(247, 224, 255)"  type="number" id="work-years" name="work-years" min="0" required><br/><br/>
+                        <label for="work-description">Description:</label><br/>
+                        <textarea style="background-color:rgb(247, 224, 255)"  id="work-description" name="work-description" rows="4" cols="50" required></textarea>
+                    </section>
+                       
+                    <section>
+                        <h3>Skills</h3>
+                        <label for="skills">Skills:</label><br/>
+                        <textarea style="background-color:rgb(247, 224, 255)"  id="skills" name="skills" rows="4" cols="50" required></textarea><br/><br/>
+                        <label for="reference-name">Reference:</label>
+                        <input style="background-color:rgb(247, 224, 255)"  type="text" id="reference-name" name="reference-name" required><br/><br/>
+                        <label for="reference-contact">Reference Contact:</label>
+                        <input style="background-color:rgb(247, 224, 255)"  type="number" id="reference-contact" name="reference-contact" required><br/><br/>
+                    </section>
+        
+                    <section>
+                        <h3>Certifications/Awards</h3>
+                        <label for="certificate/award">Certifications/Awards:</label><br/>
+                        <textarea style="background-color:rgb(247, 224, 255)"  id="certificate/award" name="certificate/award" rols="4" cols="50" ></textarea>
+                    </section><br/>
+        
+                    <input style="background-color:rgb(247, 224, 255)"  type="submit" value="SUBMIT">
+                </form>
+            </section>
+
+            <section id="Contact">
+                <h2 style="color:lightgoldenrodyellow">Contact</h2>
+                <form>
+                    <label for="phone">Tel:</label>
+                    <input style="background-color:rgb(247, 224, 255)"  type="tel" id="phone" name="phone"/><br/><br/>
+                    <label for="email">Email:</label>
+                    <input style="background-color:rgb(247, 224, 255)"  type="email" id="email" name="email"/><br/><br/>
+                    <label for="address">Address:</label>
+                    <input style="background-color:rgb(247, 224, 255)"  type="text" id="address" name="address"/><br/><br/>
+                    <label for="city">City:</label>
+                    <input style="background-color:rgb(247, 224, 255)"  type="text" id="city" name="city"/><br/><br/>
+                    <label for="country">Country:</label>
+                    <select style="background-color:rgb(247, 224, 255)" >
+                      <option id="Af" value="Armenia">Armenia</option>
+                      <option id="Be" value="Belgium">Belgium</option>
+                      <option id="Ca" value=" Canada">Canada</option>
+                      <option id="De" value="Denmark">Denmark</option>
+                      <option id="Et" value="Ethiopia">Ethiopia</option>
+                      <option id="Fi" value="Finland">Finland</option>
+                      <option id="Gh" value="Ghana">Ghana</option>
+                      <option id="Ho" value="Holysee">Holysee</option>
+                      <option id="Ic" value="Iceland">Iceland</option>
+                      <option id="Ja" value="Japan">Japan</option>
+                      <option id="Ku" value="Kuwait">Kuwait</option>
+                      <option id="Lu" value="Luxemburg">Luxemburg</option>
+                      <option id="Mo" value="Morocco">Morocco</option>
+                      <option id="Ni" value="Nigeria">Nigeria</option>
+                      <option id="Or" value="Orange state">Orange state</option>
+                      <option id="Po" value="Portugal">Portugal</option>
+                      <option id="Qu" value="Quatar">Quatar</option>
+                      <option id="Rw" value="Rwanda">Rwanda</option>
+                      <option id="Sl" value="Slovakia">Slovakia</option>
+                      <option id="Th" value="Thailand">Thailand</option>
+                      <option id="Uz" value="Uzbekistan"> Uzbekistan</option>
+                      <option id="Vi" value="Vietnam">Vietnam</option>
+                      <option id="Ye" value="Yemen">Yemen</option>
+                      <option id="Za" value="Zambia">Zambia</option>
+                    </select><br/><br/>
+                    <input style="background-color:rgb(247, 224, 255)"  type="submit" value="SUBMIT">
+                  </form>
+            </section>
+        </nav>
+    </header>
+    <p><a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Resume">Resume</a>
+        <a href="#Work">Work</a>
+        <a href="#Contact">Contact</a>
+    </p>
+    <footer>
+        <p style="color:purple">&copy; 2024 Adefule Moyinoluwa. All rights reserved.</p>
+    </footer>
+</body>
+</html>
